@@ -2134,6 +2134,110 @@ TABLE OF CONTENT
     background-size: cover;
     background-repeat: no-repeat;
     background-position: inherit;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #d8d8d8;
+}
+.login-content .full-16 .p-16-like {
+    margin-top: 100px;
+    margin-bottom: 175px;
+}
+.login-content .full-16 .p-16-like p {
+    color: #434343;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+}
+.login-content .full-16 .p-16-like p span {
+    color: #a3d0ae;
+    line-height: 8.5px;
+    letter-spacing: 0.2px;
+}
+.login-content .full-16 .p-16-like h1 {
+    margin-top: 20px;
+    color: #262626;
+    letter-spacing: -0.3px;
+    font-family: 'Bariol';
+    margin-bottom: 20px;
+}
+.login-content .full-16 .p-16-like h6 {
+    color: #434343;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.login-content .full-16 .p-16-like h6 span {
+    color: #000000;
+}
+.login-content .full-16 .p-16-like ul {
+    padding-left: 110px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.login-content .full-16 .p-16-like ul li {
+    list-style: none;
+    color: #434343;
+    font-family: 'Lato';
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    font-size: 15px;
+}
+.login-content .full-16 .p-16-like ul li i {
+    color: #7cb389;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.login-content .full-16 .p-16-like h4 {
+    font-family: 'Lato';
+    font-weight: 500;
+    line-height: 1;
+    color: #262626;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.login-content .full-16 .p-16-like .btn {
+    background-color: #ff509a;
+    border-radius: 50px;
+    font-family: 'Lato';
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.7px;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.login-content .full-16 .p-16-like .btn:hover {
+    background-color: #ffffff;
+    border: solid 0.5px #979797;
+    color: #979797;
+}
+.login-content .login-less {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.login-content .login-less a {
+    color: #595959;
+    font-family: 'Lato';
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 2px;
+}
+.login-content .login-less a:before {
+    content: '';
+    position: absolute;
+    border: solid 0.5px #595959;
+    width: 100%;
+    top: 100%;
+    left: 0;
 }
 
 
@@ -2149,9 +2253,14 @@ TABLE OF CONTENT
         margin-left: -15px;
         margin-right: -15px;
     }
+    .login-content .full-16 .p-16-like ul {
+        padding-left: 60px;
+    }
 }
 @media (max-width: 991px) {
-
+    .login-content .full-16 .p-16-like ul {
+        padding-left: 175px;
+    }
 }
 @media (max-width: 767px) {
     .tab-section {
@@ -2268,6 +2377,10 @@ TABLE OF CONTENT
     .login-content .learn-collapse-section .deliver .build-arrow {
         color: #9fc6e5;
     }
+    .login-content .full-16 .p-16-like ul {
+        text-align: center;
+        padding-left: 0;
+    }
 
 }
 @media (max-width: 568px) {
@@ -2314,6 +2427,14 @@ TABLE OF CONTENT
     .login-content .learn-collapse-section .section-filter .filter-title, .filter-item-deliver, .filter-reset-deliver {
         width: 95%;
         margin-bottom: 15px;
+    }
+}
+@media (max-width: 333px) {
+    .login-content .full-16 .p-16-like .btn {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
     }
 }
 @media (max-width: 320px) {

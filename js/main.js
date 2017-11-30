@@ -46,35 +46,47 @@ $(document).ready(function () {
 });
 
 
-function myFunction() {
+function myFunction(e) {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
+        $(e).children("span").html("Less");
         x.style.display = "block";
     } else {
+        $(e).children("span").html("More");
+
         x.style.display = "none";
     }
 }
-function myFunction2() {
+function myFunction2(e) {
     var x = document.getElementById("myDIV1");
     if (x.style.display === "none") {
+        $(e).children("span").html("Less");
         x.style.display = "block";
     } else {
+        $(e).children("span").html("More");
+
         x.style.display = "none";
     }
 }
-function myFunction3() {
+function myFunction3(e) {
     var x = document.getElementById("myDIV2");
     if (x.style.display === "none") {
+        $(e).children("span").html("Less");
         x.style.display = "block";
     } else {
+        $(e).children("span").html("More");
+
         x.style.display = "none";
     }
 }
-function myFunction4() {
+function myFunction4(e) {
     var x = document.getElementById("myDIV3");
     if (x.style.display === "none") {
+        $(e).children("span").html("Less");
         x.style.display = "block";
     } else {
+        $(e).children("span").html("More");
+
         x.style.display = "none";
     }
 }
