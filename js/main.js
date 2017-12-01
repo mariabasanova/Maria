@@ -50,43 +50,52 @@ function myFunction(e) {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
         $(e).children("span").html("Less");
-        x.style.display = "block";
+        /*x.style.display = "block";*/
+        $("#myDIV").fadeIn()
     } else {
         $(e).children("span").html("More");
 
-        x.style.display = "none";
+        /*x.style.display = "none";*/
+        $("#myDIV").fadeOut()
     }
 }
 function myFunction2(e) {
     var x = document.getElementById("myDIV1");
     if (x.style.display === "none") {
         $(e).children("span").html("Less");
-        x.style.display = "block";
+        /*x.style.display = "block";*/
+        $("#myDIV1").fadeIn()
     } else {
         $(e).children("span").html("More");
 
-        x.style.display = "none";
+        /*x.style.display = "none";*/
+        $("#myDIV1").fadeOut()
     }
 }
 function myFunction3(e) {
     var x = document.getElementById("myDIV2");
     if (x.style.display === "none") {
         $(e).children("span").html("Less");
-        x.style.display = "block";
+        /*x.style.display = "block";*/
+        $("#myDIV2").fadeIn()
     } else {
         $(e).children("span").html("More");
 
-        x.style.display = "none";
+        /*x.style.display = "none";*/
+        $("#myDIV2").fadeOut()
     }
 }
 function myFunction4(e) {
     var x = document.getElementById("myDIV3");
     if (x.style.display === "none") {
         $(e).children("span").html("Less");
-        x.style.display = "block";
+        // x.style.display = "block";
+        $("#myDIV3").fadeIn()
     } else {
         $(e).children("span").html("More");
 
-        x.style.display = "none";
+        // x.style.display = "none";
+        $("#myDIV3").fadeOut()
+
     }
 }

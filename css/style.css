@@ -2239,6 +2239,9 @@ TABLE OF CONTENT
     top: 100%;
     left: 0;
 }
+.line-none:after {
+    display: none;
+}
 
 
 @media (max-width: 1199px) {
